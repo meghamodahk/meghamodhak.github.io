@@ -21,7 +21,7 @@ nav{
     background:#031022;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
-    width: 100%; 
+    width: 100vw; 
     height: 20px;
 }
 nav li{
@@ -74,4 +74,11 @@ img{
     text-align: center;
     width: 100vw;
     text-decoration: underline;
+}
+
+.blog{
+    padding: 50px;
+    height: 100vh;
+    width: 100vw;
+    /* border: 2px solid aqua; */
 }
